@@ -43,7 +43,7 @@ link: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2930910/",
         {mythsAndFacts.map((mythAndFact) => (
           <li key={mythAndFact.myth} className="myth-and-fact-item">
             <h2 className="myth">{mythAndFact.myth}</h2>
-            <p className="fact">{mythAndFact.fact}</p>
+            <p className="text-black font-normal fact">{mythAndFact.fact}</p>
             <button onClick={() => handleButtonClick(mythAndFact.link)}>
               Read More
             </button>

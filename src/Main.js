@@ -12,7 +12,7 @@ function Main(props) {
       </Helmet>
       <LargeCard load={props.load}/>
       <Hours/>
-      <Address/>
+      
     </>
   );
 }

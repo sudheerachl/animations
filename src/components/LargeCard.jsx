@@ -14,7 +14,7 @@ const LargeCard = (props) => {
          
         <div className="text-black font-normal">
   <p className="text-black font-normal" >We are not just a clinic; we are your wellness partner.</p>
-  <p className="text-black font-normal text-align: left margin-right: 3rem">
+  <p className="text-black font-normal text-align: left margin-right: 80px">
     Homeopathy: an ancient yet reliable method towards optimal health and
     wellness. This is the path towards your thriving health. 
     We strive to help you to lead healthy lives and promote your positive health

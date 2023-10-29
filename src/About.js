@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "./About.css";
-import Img1 from './img/1.jpeg'
 const About = () => {
   const [activeSection, setActiveSection] = useState("history");
   const [imageIndex, setImageIndex] = useState(0);
   const [images, setImages] = useState(
-    Img1,
+    "./img/2.jpg",
     "./img/2.jpg",
     "./img/3.jpg",
     "./img/4.jpg",

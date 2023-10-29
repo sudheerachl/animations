@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./About.css";
+import './img/1.jpg';
 const About = () => {
   const [activeSection, setActiveSection] = useState("history");
   const [imageIndex, setImageIndex] = useState(0);
@@ -14,14 +15,14 @@ const About = () => {
   const sections = {
     history: {
       title: "About DR.Jiddu Sai Akhila",
-      text: `Homeopathy was introduced in India in the early 19th century...`,
+      text: `Dr. Jiddu Sai Akhila is a passionate practitioner of alternative medicine- Homoeopathy who pursued her B.H.M.S (Bachelor of Homoeopathic Medicine and Surgery) from Father Muller Homoeopathic Medical College in Karnataka, India. She is a college topper who secured first rank in the first three years and second rank in the final year with distinctions twice in medical school. A believer in active participation she has taken part in various academic, research, and co-curricular activities in college and within homeopathic fraternity. She is the Presidential Gold Medal Awardee batch 2017-23 and receiver of the Gold scholarship under The Mukesh Batra Academic Excellence Awards. She is an alumnus of The PSBB Millennium School, OMR, Chennai, India. She has been an All- rounder and Academic achiever in school. She has successfully completed two research papers with positive results on rimary insomnia and constitutional survey study which have been published in acclaimed Homoeopathic journals. She has attended and participated in various online and offline conferences and C Es across the country.`,
     },
     effectiveness: {
       title: "Effectiveness of Homeopathy",
       text: null, // No text for this section
     },
     accomplishments: {
-      title: "Recent Great Accomplishments",
+      title: "Accomplishments",
       text: `Dr. Jiddu Sai Akhila is a passionate practitioner of alternative medicine- Homoeopathy who pursued her B.H.M.S (Bachelor of Homoeopathic Medicine and Surgery) from Father Muller Homoeopathic Medical College in Karnataka, India. She is a college topper who secured first rank in the first three years and second rank in the final year with distinctions twice in medical school. A believer in active participation she has taken part in various academic, research, and co-curricular activities in college and within homeopathic fraternity. She is the Presidential Gold Medal Awardee batch 2017-23 and receiver of the Gold scholarship under The Mukesh Batra Academic Excellence Awards. She is an alumnus of The PSBB Millennium School, OMR, Chennai, India. She has been an All- rounder and Academic achiever in school. She has successfully completed two research papers with positive results on rimary insomnia and constitutional survey study which have been published in acclaimed Homoeopathic journals. She has attended and participated in various online and offline conferences and C Es across the country.`,
     },
   };

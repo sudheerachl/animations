@@ -7,7 +7,7 @@ const LargeCard = (props) => {
   const loadcontent = props.load;
   return (
     <div className="px-5 py-5">
-      <h1 className="text-[#225dba] px-5 ">SAI SAHITHRA HOMOEO CLINIC</h1>
+      <h1 className="text-[#1a55c4] px-5 ">SAI SAHITHRA HOMOEO CLINIC</h1>
       <div className="flex head-1 justify-between py-5" >
         <div className="text-6xl font-semibold ">
         <p className="text-black font-normal" >Heal. Thrive. Flourish.</p>

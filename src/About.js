@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./About.css";
+import Address from "./components/Address";
 const About = () => {
   const [activeSection, setActiveSection] = useState("history");
   const [imageIndex, setImageIndex] = useState(0);
@@ -21,8 +22,7 @@ const About = () => {
       text: null, // No text for this section
     },
     accomplishments: {
-      title: "Accomplishments",
-      text: ``,
+      Address
     },
   };
   let imageScrollTimer = null;

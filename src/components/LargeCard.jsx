@@ -10,7 +10,7 @@ const LargeCard = (props) => {
       <h1 className="text-[#225dba] px-5 ">SAI SAHITHRA HOMOEO CLINIC</h1>
       <div className="flex head-1 justify-between py-5" >
         <div className="text-6xl font-semibold ">
-        <p>Heal. Thrive. Flourish.</p>
+        <p className="text-black font-normal" >Heal. Thrive. Flourish.</p>
          
         <div className="text-black font-normal">
   <p >We are not just a clinic; we are your wellness partner.</p>

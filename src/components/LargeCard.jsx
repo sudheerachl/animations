@@ -21,7 +21,8 @@ const LargeCard = (props) => {
   <p className="text-black font-normal" >We strive to help you to lead healthy lives and promote your positive health
     and well-being even beyond the simple absence of disease. </p>
   <p className="text-black font-normal" >An experienced team strives to provide you with natural vitality that
-    will last for long time. Start your journey towards a better life with homeopathy in order to discover its power.
+    will last for long time. </p>
+  <p className="text-black font-normal" >Start your journey towards a better life with homeopathy in order to discover its power.
   </p>
   
   

@@ -1,0 +1,25 @@
+.contact-container {
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .section {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-right: 10cm;
+    margin-left: 3cm;
+  }
+  
+  .section.active {
+    background-color: #f0f0f0;
+  }
+  
+  .doctor-image {
+    width: 5cm;
+    height: 3cm;
+    object-fit: contain;
+    margin-right: 6cm;
+  }
+  

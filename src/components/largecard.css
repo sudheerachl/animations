@@ -1,0 +1,16 @@
+
+  .LargeCard h1,
+.LargeCard p {
+  color: black;
+}
+  
+  .LargeCard .bg-gradient-to-r {
+    background: linear-gradient(to right, #e4eaeb, #d6d6dd);
+  }
+  
+  .LargeCard .FcVoicePresentation,
+  .LargeCard .FcInspection,
+  .LargeCard .FcApproval {
+    background: #cfe2ff;
+  }
+  

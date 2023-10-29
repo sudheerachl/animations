@@ -28,7 +28,7 @@ const LargeCard = (props) => {
   
 </div>
 
-          <div className="bg-[#0e21fe] w-fit px-5 py-3 shadow-lg shadow-blue-700/60 text-base text-white font-normal rounded-full mt-5">
+          <div className="bg-[#e8fdff] w-fit px-5 py-3 shadow-lg shadow-blue-700/60 text-base text-white font-normal rounded-full mt-5">
             <p className="flex items-center justify-center gap-3">
               Get in Touch
               <span className="bg-white/20 p-1 rounded-full">

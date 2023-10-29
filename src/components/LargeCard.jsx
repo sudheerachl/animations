@@ -14,14 +14,14 @@ const LargeCard = (props) => {
          
         <div className="text-black font-normal">
   <p className="text-black font-normal" >We are not just a clinic; we are your wellness partner.</p>
-  <p className="text-black font-normal text-align: left margin-right: 80px">
+  <p className="text-black font-normal">
     Homeopathy: an ancient yet reliable method towards optimal health and
     wellness. This is the path towards your thriving health. 
-    We strive to help you to lead healthy lives and promote your positive health
-    and well-being even beyond the simple absence of disease. 
-    An experienced team strives to provide you with natural vitality that
-    will last for long time. Start your journey towards a better life
-    with homeopathy in order to discover its power.
+  </p> 
+  <p className="text-black font-normal" >We strive to help you to lead healthy lives and promote your positive health
+    and well-being even beyond the simple absence of disease. </p>
+  <p className="text-black font-normal" >An experienced team strives to provide you with natural vitality that
+    will last for long time. Start your journey towards a better life with homeopathy in order to discover its power.
   </p>
   
   

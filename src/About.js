@@ -22,7 +22,7 @@ const About = () => {
       text: null, // No text for this section
     },
     accomplishments: {
-      title : "Homoeopathy Myths and Facts: Busted!"
+      title : "Homoeopathy Myths and Facts: Busted!",
       text: null,
     },
   };

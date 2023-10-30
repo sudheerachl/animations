@@ -5,11 +5,11 @@ const About = () => {
   const [activeSection, setActiveSection] = useState("history");
   const [imageIndex, setImageIndex] = useState(0);
   const [images, setImages] = useState(
-    "./img/1.jpg",
-    "./img/2.jpg",
-    "./img/3.jpg",
-    "./img/4.jpg",
-    "./img/5.jpg",
+    "../img/1.jpg",
+    "../img/2.jpg",
+    "../img/3.jpg",
+    "../img/4.jpg",
+    "../img/5.jpg",
   );
 
   const sections = {

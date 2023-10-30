@@ -10,7 +10,7 @@ const About = () => {
   const [imageIndex, setImageIndex] = useState(0);
   //const [images, setImages] = useState(
   const images=[
-   "Image1","Image2","Image3","Image4","Image5",// "./img/1.jpg",
+   'Image1',"Image2","Image3","Image4","Image5",// "./img/1.jpg",
    // "./img/2.jpg",
     //"./img/3.jpg",
     //"./img/4.jpg",

@@ -23,7 +23,7 @@ const About = () => {
     },
     accomplishments: {
       title : "Homoeopathy Myths and Facts: Busted!"
-      text: 
+      text: null,
     },
   };
   let imageScrollTimer = null;

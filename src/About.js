@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./About.css";
-import doctorImage from './img/contact.jpg';
+import doctorImage from '../img/contact.jpg';
 import Image2 from './img/2.jpg';
 import Image3 from './img/3.jpg';
 import Image4 from './img/4.jpg';

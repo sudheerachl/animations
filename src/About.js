@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./About.css";
-import Address from "./components/Address";
+import Address from "./components/Address.jsx";
 const About = () => {
   const [activeSection, setActiveSection] = useState("history");
   const [imageIndex, setImageIndex] = useState(0);

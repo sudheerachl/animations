@@ -1,16 +1,20 @@
 import React, { useState, useEffect } from "react";
 import "./About.css";
-
+import Image1 from './img/1.jpeg';
+import Image2 from './img/2.jpg';
+import Image3 from './img/3.jpg';
+import Image4 from './img/4.jpg';
+import Image5 from './img/5.jpg';
 const About = () => {
   const [activeSection, setActiveSection] = useState("history");
   const [imageIndex, setImageIndex] = useState(0);
   //const [images, setImages] = useState(
   const images=[
-    "./img/1.jpg",
-    "./img/2.jpg",
-    "./img/3.jpg",
-    "./img/4.jpg",
-    "./img/5.jpg",
+   "Image1","Image2","Image3","Image4","Image5",// "./img/1.jpg",
+   // "./img/2.jpg",
+    //"./img/3.jpg",
+    //"./img/4.jpg",
+    //"./img/5.jpg",
   ];
 
   const sections = {

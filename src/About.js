@@ -29,7 +29,7 @@ const About = () => {
       <Address/>
       
     </>
-       )
+       );
     },
   };
   let imageScrollTimer = null;

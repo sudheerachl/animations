@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./About.css";
+import Address from "./components/Address.jsx";
 import Image1 from './img/1.jpeg';
 import Image2 from './img/2.jpg';
 import Image3 from './img/3.jpg';
@@ -23,56 +24,7 @@ const About = () => {
       text: null, // No text for this section
     },
     accomplishments: {
-      const heading = "Homoeopathy Myths and Facts: Busted!";
-      const mythsAndFacts = [
-    {
-      myth: "Homoeopathy is just a placebo effect.",
-      fact: "There is growing scientific evidence to support the effectiveness of homeopathy.",
-      link: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3960496/",
-    },
-    {
-      myth: "Homoeopathy is not safe.",
-      fact: "Homoeopathic remedies are made from highly diluted substances, which makes them very safe.",
-      link: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4377390/",
-    },
-    {
-      myth: "Homoeopathy is not regulated.",
-      fact: "Homoeopathy is regulated by the government in many countries, including India.",
-      link: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4377390/",
-    },
-    {
-      myth: "Homoeopathy is not effective for acute conditions.",
-      fact: "Homoeopathy can be effective for a wide range of acute conditions, such as colds, flu, and diarrhea. ",
-link: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2930910/",
-    },
-    {
-      myth: "Homoeopathy is not effective for chronic conditions.",
-      fact: "Homoeopathy can be effective for a wide range of chronic conditions, including asthma, allergies, and eczema.",
-      link: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2930908/",
-    },
-  ];
-
-  const handleButtonClick = (link) => {
-    window.open(link, "_blank");
-  };
-
-  return (
-    <div>
-      <h1>{heading}</h1>
-      <ul>
-        {mythsAndFacts.map((mythAndFact) => (
-          <li key={mythAndFact.myth} className="myth-and-fact-item">
-            <h2 className="myth">{mythAndFact.myth}</h2>
-            <p className="text-black font-normal fact">{mythAndFact.fact}</p>
-            <button onClick={() => handleButtonClick(mythAndFact.link)}>
-              Read More
-            </button>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
-};
+      <Address/>
     },
   };
   let imageScrollTimer = null;

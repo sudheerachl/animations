@@ -24,14 +24,13 @@ const About = () => {
       text: null, // No text for this section
     },
     accomplishments: {
-      function a(){
-      return (
-          <>
-      <Address/>
-      
-    </>
-       );
-      }
+      function Main(props) {
+          return (
+            <>
+             <Address/>      
+          </>
+  );
+}
     },
   };
   let imageScrollTimer = null;

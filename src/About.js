@@ -24,9 +24,10 @@ const About = () => {
     },
     accomplishments: {
       title : "Homoeopathy Myths and Facts: Busted!",
+      text : "
       myth: "Homoeopathy is just a placebo effect.",
       fact: "There is growing scientific evidence to support the effectiveness of homeopathy.",
-      link: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3960496/",
+      link: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3960496/","
     },
   };
   let imageScrollTimer = null;

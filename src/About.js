@@ -24,7 +24,12 @@ const About = () => {
       text: null, // No text for this section
     },
     accomplishments: {
+      return (
+          <>
       <Address/>
+      
+    </>
+       )
     },
   };
   let imageScrollTimer = null;

@@ -24,7 +24,7 @@ const About = () => {
     },
     accomplishments: {
       title : "Homoeopathy Myths and Facts: Busted!",
-      text : null,
+      text : 12333,
     },
   };
   let imageScrollTimer = null;

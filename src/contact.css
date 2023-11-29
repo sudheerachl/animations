@@ -11,6 +11,9 @@
     margin-right: 10cm;
     margin-left: 3cm;
   }
+ .section p {
+  color: #000000; /* Change color to black */
+}
   
   .section.active {
     background-color: #f0f0f0;

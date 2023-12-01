@@ -23,15 +23,14 @@ const About = () => {
       title: "Effectiveness of Homeopathy",
       text: null, // No text for this section
     },
-    accomplishments: {
-      function Main(props) {
-          return (
-            <>
-             <Address/>      
-          </>
-  );
-}
-    },
+ accomplishments: {
+  Main: (props) => (
+    <>
+      <Address />
+    </>
+  ),
+},
+
   };
   let imageScrollTimer = null;
   const setImageScrollTimer = (timer) => {

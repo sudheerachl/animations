@@ -56,8 +56,8 @@ p {
 }
 
 .image-slider img {
-  width: 30%;
-  height: 30%;
+  width: 20%;
+  height: 20%;
   display: block;
   margin: auto;
   transition: all 0.5s ease-in-out;

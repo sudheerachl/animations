@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./About.css";
 import Address from "./components/Address.jsx";
-import Image1 from './img/1.jpeg';
+
 import Image2 from './img/2.jpg';
 import Image3 from './img/3.jpg';
 import Image4 from './img/4.jpg';
@@ -11,7 +11,7 @@ const About = () => {
   const [imageIndex, setImageIndex] = useState(0);
   //const [images, setImages] = useState(
   const images=[
-   Image1,Image2,Image3,Image4,Image5,
+   Image2,Image3,Image4,Image5,
   ];
 
   const sections = {

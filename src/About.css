@@ -104,8 +104,8 @@ p {
 }
 
 .image-slider img {
-  width: 100%;
-  height: auto;
+  width: 10%;
+  height: 10%;
   display: block;
   transition: all 0.5s ease-in-out;
 }

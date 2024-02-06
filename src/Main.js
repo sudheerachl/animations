@@ -8,10 +8,10 @@ function Main(props) {
   return (
     <>
  <Helmet>
-        <title>SAI SAHITHRA HOMOEO CLINIC</title>
+        <title>CLICK</title>
       </Helmet>
       <LargeCard load={props.load}/>
-      <Hours/>
+     
       
     </>
   );
